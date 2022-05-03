@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../img/moon47store_logomoon_Mesa de trabajo 1.png">
+    <script src="../main.js"></script>
+    <title>Moon47Store</title>
+</head>
+
+<body class="contacts-body">
+
+
+
+    <form id="contacts-container" action="conection.php" method="POST">
+        <p class="label">Notifica tu pago a la tienda y confirma el pedido, completa con tus datos.</p>
+        <input id="inputps1" type="text" placeholder="Nombre" name="Nombre">
+        <input id="inputps2" type="text" placeholder="Apellido" name="Apellido">
+        <input id="inputps3" type="email" placeholder="Correo electrónico" name="CorreoElectronico">
+        <input id="inputps4" type="tel" placeholder="Numero de móvil" name="NumeroDeMovil">
+        <input id="inputps5" type="number" placeholder="N° de documento" name="NDeDocumento">
+        <label for="">Domicilio:</label>
+        <input id="inputps6" type="text" placeholder="Calle" name="Calle">
+        <input id="inputps7" type="Number" placeholder="Altura" name="Altura">
+        <input id="inputps8" type="text" placeholder="Localidad" name="Localidad">
+        <label for="date">Fecha de compra:</label>
+        <input id="inputps9" type="date" name="DateS">
+        <input id="inputps10" type="number" placeholder="Monto abonado ej:$2250" name="MontoAbonado">
+        <input id="inputps11" type="number" placeholder="Cantidad de prendas" name="CantidadDePrendas">
+        <input id="inputps12" type="text" placeholder="Nombre de prendas..." name="NombreDePrendas">
+        <div class="label center">
+            <p class="label2"> Sino recordás los nombres de las prendas que compraste te recomendamos veas en una pestaña alternativa nuestra tienda para escribir con exactitud el nombre de las mismas, hace click en el siguiente link y volvé a esta pestaña para terminar
+                de completar el formulario y enviar a moon47store.<br><br> <a target="_blank" href="https://moon47store.com/shop">Click</a>
+            </p>
+        </div>
+        <input id="inputps13" type="text" placeholder="¿Abonas envio? Si/No" name="AbonoEnvio">
+        <div class="label center">
+            <p class="label2">$400 de recargo (Localidad:Los polvorines, Grand Bourg, Jose c paz, San miguel), recibís link de pago del recargo por Whatsapp o Email.<br><br>Aclaración: Si recibiste cupón de envió gratis en tu domicilio, no se te cobrara recargo si has
+                conservado el cupón.
+            </p>
+        </div>
+
+        <button class="button" id="buttonps">Enviar</button>
+
+    </form>
+
+
+    <div class="containerLoadingPaymentSuccessful" id="containerLoading">
+        <div class="clps" id="clps">
+            <div class="clpsChild">
+                <svg xmlns="http://www.w3.org/2000/svg" height="15vh" class="bi bi-check-circle-fill checkps" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </svg>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
