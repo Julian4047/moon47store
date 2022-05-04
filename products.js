@@ -160,8 +160,8 @@ const bd = [{
         imga: '../img/products/17a.jpeg',
         imgb: '../img/products/17a.jpeg',
         imgc: '../img/products/17a.jpeg',
-        link: 'https://mpago.la/2ywoVcB',
-        det: 'Talle único'
+        link: '',
+        det: 'Sin stock'
     },
     {
         id: 17,
